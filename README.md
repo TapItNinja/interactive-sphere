@@ -27,9 +27,8 @@
       <td align="center">Particle Effects</td>
     </tr>
     <tr>
-      <td><img src="./components/sphere.png" width="200"/></td>
+      <td><img src="./components/ball.png" width="200"/></td>
       <td><img src="./components/controls.png" width="200"/></td>
-      <td><img src="./components/particles.png" width="200"/></td>
     </tr>
   </table>
 </div>
@@ -152,10 +151,8 @@
 
 ## 👥 Team
 
-- **Project Lead**: [Your Name](https://github.com/your-profile)
-- **UI/UX Designer**: [Designer Name](https://github.com/designer)
-- **Frontend Developer**: [Developer Name](https://github.com/developer)
-- **Backend Developer**: [Developer Name](https://github.com/developer)
+- **UI/UX Designer**: Shubham Shaswat
+- **Frontend Developer**: Shubham Shaswat
 
 ## 📄 License
 
