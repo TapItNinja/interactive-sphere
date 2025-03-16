@@ -24,7 +24,7 @@
     <tr>
       <td align="center">Spinning Sphere</td>
       <td align="center">Interactive Controls</td>
-      <td align="center">Particle Effects</td>
+      
     </tr>
     <tr>
       <td><img src="./components/ball.png" width="200"/></td>
