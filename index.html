@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive 3D Sphere</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Canvas for Three.js -->
+    <canvas class="webgl"></canvas>
+    
+    <!-- Navigation -->
+    <nav>
+      <a href="#" class="logo">SphereX</a>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/shaswatshubham/" class="nav-link" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a></li>
+        <li><a href="https://github.com/TapItNinja" class="nav-link" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a></li>
+        <li><a href="https://medium.com/@shubham.shaswat2002" class="nav-link" target="_blank">
+          <i class="fab fa-medium"></i> Medium
+        </a></li>
+        <li><a href="https://keen-pika-99d751.netlify.app/" class="nav-link" target="_blank">
+          <i class="fas fa-briefcase"></i> Portfolio
+        </a></li>
+      </ul>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Title and Subtitle -->
+    <div class="title-container">
+      <h1 class="title">Interactive Sphere</h1>
+      <p class="subtitle">Click and drag to change colors</p>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <div class="control-panel">
+        <h3>Controls</h3>
+        <div class="color-control">
+          <label for="color-picker">Pick Color:</label>
+          <input type="color" id="color-picker" value="#00ff83" />
+        </div>
+        <div class="presets">
+          <h4>Material Presets:</h4>
+          <button class="preset-btn" data-preset="chrome">Chrome</button>
+          <button class="preset-btn" data-preset="gold">Gold</button>
+          <button class="preset-btn" data-preset="glass">Glass</button>
+          <button class="preset-btn" data-preset="matte">Matte</button>
+        </div>
+        <div class="help">
+          <h4>Keyboard Controls:</h4>
+          <p>Arrow Keys: Change Color</p>
+          <p>R: Reset</p>
+          <p>Space: Toggle Auto-rotation</p>
+        </div>
+      </div>
+      <button class="fullscreen-btn">
+        <i class="fas fa-expand"></i>
+      </button>
+      <button class="panel-toggle">
+        <i class="fas fa-sliders-h"></i>
+      </button>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta">
+      <p>Discover the beauty of 3D</p>
+      <button class="cta-btn" onclick="window.location.href='https://keen-pika-99d751.netlify.app/'">
+        Visit My Portfolio
+      </button>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
