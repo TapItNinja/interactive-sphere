@@ -14,7 +14,7 @@
 [**Click here to view the live website**](https://super-frangipane-991c63.netlify.app/)
 
 <div align="center">
-  <img src="./components/demo.png" alt="Website Demo" width="600"/>
+  <img src="./components/Demo.png" alt="Website Demo" width="600"/>
 </div>
 
 ## 🎥 Project Showcase
