@@ -1,7 +1,7 @@
 # Interactive 3D Sphere 🌐
 
 <div align="center">
-  <img src="./components/logo1.png" alt="Interactive 3D Sphere Logo" width="200"/>
+  <img src="./components/logo2.png" alt="Interactive 3D Sphere Logo" width="200"/>
   
   <h3>An Immersive 3D Experience with Interactive Controls</h3>
   
